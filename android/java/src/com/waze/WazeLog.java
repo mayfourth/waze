@@ -321,8 +321,10 @@ public class WazeLog
          }
 
      }
-     
-     private native void WazeLogNTV( int level, String aStr );
+     private void WazeLogNTV( int level, String aStr ) {
+    	 
+     }
+     //private native void WazeLogNTV( int level, String aStr );
 
     /*************************************************************************************************
      *================================= Data members section =================================

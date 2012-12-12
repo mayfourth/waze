@@ -146,7 +146,7 @@ public final class WazeResManager
                     WazeUtils.DeleteDir( resDir, true, extractExceptions );
                     /* Delete the editor db files */
                     String files[] = ( new File( mAppDir + mMapsDir ) ).list();
-                    for ( int i = 0; i < files.length; ++i )
+                    for ( int i = 0; files!=null && i < files.length; ++i )
                     {
                     	if ( files != null && files[i] != null )
                     	{
